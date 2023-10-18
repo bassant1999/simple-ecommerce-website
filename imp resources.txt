@@ -1,0 +1,41 @@
+the project: 
+https://youtu.be/W7up-w1QYpw?si=jt8w-cYJ1ce0Sben
+https://www.figma.com/file/rephrU2FVgN8MFz6XhnP51/Learn-React-with-10-Projects?type=design&node-id=0-1&mode=design
+
+react icons search:
+https://react-icons.github.io/react-icons/icons?name=fa
+https://react-icons.github.io/react-icons/
+
+html to jsx: https://transform.tools/html-to-jsx
+
+react routing:
+https://www.w3schools.com/react/react_router.asp
+
+
+Concatenating variables and strings in React:
+https://stackoverflow.com/questions/39523040/concatenating-variables-and-strings-in-react
+
+react-router-pass-param-to-component:
+https://stackoverflow.com/questions/45898789/react-router-pass-param-to-component
+
+fetch api in react:
+https://rapidapi.com/guides/fetch-api-react
++ use state variables to create global variable.
+
+loops in jsx:
+https://www.telerik.com/blogs/beginners-guide-loops-in-react-jsx
+
+products api:
+https://fakestoreapi.com/
+https://github.com/keikaavousi/fake-store-api
+https://dummyjson.com/docs/products
+
+install bootsrap in react:
+https://create-react-app.dev/docs/adding-bootstrap/
+https://www.geeksforgeeks.org/how-to-install-bootstrap-in-react-js/
+
+center div vertically bootsrap:
+https://www.geeksforgeeks.org/how-to-set-vertical-alignment-in-bootstrap/
+
+adding-images-fonts-and-files:
+https://create-react-app.dev/docs/adding-images-fonts-and-files/
