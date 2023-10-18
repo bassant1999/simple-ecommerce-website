@@ -12,6 +12,8 @@ This website alows the users to view different products, rate them, and search f
 
 ### Products page
 ![products page](imgs/products.PNG)
+**scroll more**
+![products page](imgs/cont_products.PNG)
 
 ### Part of a Product page
 ![product page](imgs/product.PNG)
