@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect  } from 'react';
 // import img1 from '../images/products_1.jpg'
 // import img2 from '../images/products_2.jpg'
 // import img3 from '../images/products_3.jpg'
@@ -11,12 +11,20 @@ import { useState } from 'react';
 
 const Products = () => {
     const [products, setProducts] = useState([]);
-    const [categories, setCategories] = useState([]);
+    // const [categories, setCategories] = useState([]);
 
-    fetch('https://fakestoreapi.com/products')
-    .then(response => response.json())
-    .then(data => setProducts(data))
-    .catch(error => console.error(error));
+    useEffect(() => {
+      fetch('https://fakestoreapi.com/products')
+      .then(response => response.json())
+      .then(data => setProducts(data))
+      .catch(error => console.error(error));
+      
+   }, []);
+
+    // fetch('https://fakestoreapi.com/products')
+    // .then(response => response.json())
+    // .then(data => setProducts(data))
+    // .catch(error => console.error(error));
     // useEffect(()=> {
     //     const getProducts = async()=>{
     //         const productsFromServer = await fetchProducts();
@@ -37,11 +45,11 @@ const Products = () => {
     //   for (let product of products ) {
     //       console.log(product.title)
     //   }
-      const listItems = products.map(product =>
-        <li key={product.id}>
-          {product.title}
-        </li>
-      );
+      // const listItems = products.map(product =>
+      //   <li key={product.id}>
+      //     {product.title}
+      //   </li>
+      // );
 
       const prods = products.map(product =>
         <div className="row m-4" key={product.id}>
