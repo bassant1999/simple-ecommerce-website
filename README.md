@@ -1,4 +1,9 @@
 # simple-ecommerce-website
+## Installations
+run these in project terminal to install react icons, bootsrap, and react router: \
+npm install react-icons --save \
+npm install bootstrap \
+npm i -D react-router-dom
 
 ## Products API
 https://fakestoreapi.com/ \
